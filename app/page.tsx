@@ -1,11 +1,9 @@
-import Accordiony from "@/components/Accordiony";
-import Alerty from "@/components/Alerty";
+import Header from "./../components/Header";
 
 export default function Home() {
   return (
-    <div className="grid content-center h-screen">
-      <Accordiony />
-      <Alerty />
+    <div>
+      <Header />
     </div>
   );
 }
